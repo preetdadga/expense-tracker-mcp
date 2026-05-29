@@ -31,6 +31,38 @@ def add_expense(date, amount, category, subcategory="", note=""):
             (date, amount, category, subcategory, note)
         )
         return {"status": "ok", "id": cur.lastrowid}
+
+@mcp.tool()
+def update_expense(id, date, amount, category, subcategory="", note=""):
+    '''Update an existing expense entry by id.'''
+    with sqlite3.connect(DB_PATH) as c:
+        cur = c.execute(
+            """
+            UPDATE expenses
+            SET date = ?, amount = ?, category = ?, subcategory = ?, note = ?
+            WHERE id = ?
+            """,
+            (date, amount, category, subcategory, note, id)
+        )
+
+        if cur.rowcount == 0:
+            return {"status": "not_found", "id": id}
+
+        return {"status": "ok", "id": id}
+
+@mcp.tool()
+def delete_expense(id):
+    '''Delete an existing expense entry by id.'''
+    with sqlite3.connect(DB_PATH) as c:
+        cur = c.execute(
+            "DELETE FROM expenses WHERE id = ?",
+            (id,)
+        )
+
+        if cur.rowcount == 0:
+            return {"status": "not_found", "id": id}
+
+        return {"status": "ok", "id": id}
     
 @mcp.tool()
 def list_expenses(start_date, end_date):

@@ -3,9 +3,12 @@
     "groceries",
     "fruits_vegetables",
     "dairy_bakery",
+    "meat_seafood",
+    "staples_grains",
     "dining_out",
     "coffee_tea",
     "snacks",
+    "sweets_desserts",
     "delivery_fees",
     "other"
   ],
@@ -13,18 +16,24 @@
     "fuel",
     "public_transport",
     "cab_ride_hailing",
+    "auto_rickshaw",
+    "bike_scooter",
     "parking",
     "tolls",
     "vehicle_service",
+    "vehicle_insurance",
+    "vehicle_loan_emi",
     "other"
   ],
   "housing": [
     "rent",
+    "home_loan_emi",
     "maintenance_hoa",
     "property_tax",
     "repairs_service",
     "cleaning",
     "furnishing",
+    "security_deposit",
     "other"
   ],
   "utilities": [
@@ -34,14 +43,20 @@
     "internet_broadband",
     "mobile_phone",
     "tv_dth",
+    "landline",
+    "waste_management",
     "other"
   ],
   "health": [
     "medicines",
     "doctor_consultation",
     "diagnostics_labs",
+    "hospitalization",
+    "dental",
+    "vision",
     "insurance_health",
     "fitness_gym",
+    "therapy_counseling",
     "other"
   ],
   "education": [
@@ -50,6 +65,9 @@
     "online_subscriptions",
     "exam_fees",
     "workshops",
+    "tuition_coaching",
+    "certifications",
+    "stationery",
     "other"
   ],
   "family_kids": [
@@ -57,6 +75,9 @@
     "daycare",
     "toys_games",
     "clothes",
+    "baby_supplies",
+    "medical_kids",
+    "allowance",
     "events_birthdays",
     "other"
   ],
@@ -65,6 +86,9 @@
     "streaming_subscriptions",
     "games_apps",
     "outing",
+    "sports_events",
+    "hobbies",
+    "books_magazines",
     "other"
   ],
   "shopping": [
@@ -74,6 +98,8 @@
     "electronics_gadgets",
     "appliances",
     "home_decor",
+    "personal_items",
+    "repairs_alterations",
     "other"
   ],
   "subscriptions": [
@@ -82,6 +108,8 @@
     "newsletters",
     "music_video",
     "storage_backup",
+    "mobile_apps",
+    "memberships",
     "other"
   ],
   "personal_care": [
@@ -89,12 +117,16 @@
     "grooming",
     "cosmetics",
     "hygiene",
+    "skincare",
+    "wellness",
     "other"
   ],
   "gifts_donations": [
     "gifts_personal",
     "charity_donation",
     "festivals",
+    "weddings",
+    "religious_offerings",
     "other"
   ],
   "finance_fees": [
@@ -102,6 +134,9 @@
     "late_fees",
     "interest",
     "brokerage",
+    "atm_fees",
+    "card_annual_fees",
+    "forex_charges",
     "other"
   ],
   "business": [
@@ -111,6 +146,9 @@
     "contractor_payments",
     "travel_business",
     "office_supplies",
+    "coworking",
+    "legal_professional",
+    "accounting",
     "other"
   ],
   "travel": [
@@ -120,6 +158,9 @@
     "visa_passport",
     "local_transport",
     "food_travel",
+    "travel_insurance",
+    "sightseeing",
+    "baggage_fees",
     "other"
   ],
   "home": [
@@ -128,6 +169,9 @@
     "kitchenware",
     "small_repairs",
     "pest_control",
+    "laundry",
+    "gardening",
+    "home_security",
     "other"
   ],
   "pet": [
@@ -135,6 +179,9 @@
     "vet",
     "grooming",
     "supplies",
+    "boarding",
+    "vaccinations",
+    "insurance",
     "other"
   ],
   "taxes": [
@@ -142,6 +189,9 @@
     "gst",
     "professional_tax",
     "filing_fees",
+    "advance_tax",
+    "tds",
+    "tax_penalty",
     "other"
   ],
   "investments": [
@@ -151,6 +201,57 @@
     "gold",
     "crypto",
     "brokerage_fees",
+    "retirement",
+    "bonds",
+    "investment_advisory",
+    "sip",
+    "nps_ppf",
+    "insurance_investment",
+    "other"
+  ],
+  "insurance": [
+    "life_insurance",
+    "term_insurance",
+    "health_insurance",
+    "vehicle_insurance",
+    "home_insurance",
+    "travel_insurance",
+    "premium_payment",
+    "other"
+  ],
+  "loans_debt": [
+    "credit_card_payment",
+    "personal_loan_emi",
+    "home_loan_emi",
+    "vehicle_loan_emi",
+    "education_loan_emi",
+    "loan_processing_fees",
+    "prepayment_charges",
+    "other"
+  ],
+  "income_related": [
+    "salary_deductions",
+    "reimbursements_pending",
+    "professional_expense",
+    "job_search",
+    "relocation",
+    "other"
+  ],
+  "legal_government": [
+    "legal_fees",
+    "notary",
+    "government_fees",
+    "licenses_permits",
+    "fines_penalties",
+    "passport_services",
+    "other"
+  ],
+  "emergency": [
+    "medical_emergency",
+    "family_support",
+    "urgent_repairs",
+    "lost_items",
+    "disaster_relief",
     "other"
   ],
   "misc": [
